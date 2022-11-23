@@ -1,55 +1,30 @@
 <html>
+    <head>
+        <style>
+            .red{
+                color: red;
+            }
+        </style>
+    </head>
     <body>
         <div id="div1">Hello</div>
         <button id="bt1">Click Me !!!</button>
+        <hr>
+        <input type="text" class="in1" />
+        <input type="text" class="in1" />
+        <input type="text" class="in1" />
+        <div>
+            <button id="bt3">Click !!</button>
+            <button id="bt4">RED</button>
+        </div>
+        <hr>
+        <div id="div_about"></div>
+
     </body>
 </html>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
-<script>
-    var num =10;
-    let text ="tiger";
-   // let Arry =[10,15,"tiger"];
-    const obj = { name: "tiger",age: 21 };
-    const objMix = {
-        data:[
-            {name :"Dang",gpa:4.3,},
-            {name :"Dum",gpa:2.8,},
-        ],
-    };
-
-console.log(num);
-console.log(Array);
-console.log(objMix);
-
-let string = num + name;
-console.log(string);
-
-string = objMix.data[1].name + Array[0];
-console.log(string);
-
-string = "<p>" + Array[2] + "</p>";
-string = `<p>${Array}</p>`;
-
-console.log(string);
-
-function Add(a,b){
-    return
-}
-
-console.log(Add(3,5));
-
-document.getElementById("div1").innerHTML = name;
-$(function (){    
-   // alert("Hello");
-   $("#div1").html("TANAWAT");
-
-   $("#bt1").click(function () {
-    $("#div1").html("I LOVE IT");
-
-   });
-});//jQuery Handle
-</script>
+<script src ="main.js"></script>
 
 
