@@ -1,0 +1,14 @@
+<form action="" id="fm_user"></form>
+    <input type="text" name="user" placeholder="user"/>
+    <input type="text" name="age" placeholder="age"/>
+    <button type="submit">Save</button>
+</form>
+
+<Script>
+    $("#fm_user").submit((e) => {
+        e.preventDefault();
+        //console.log("Hello");
+        let form = $(this);
+        console.log(form);
+    });
+</Script>
